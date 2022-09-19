@@ -35,5 +35,5 @@ func mergeTwoLists(list1 *ListNode, list2 *ListNode) *ListNode {
 	if p2 != nil {
 		p.Next = p2
 	}
-	return dummy
+	return dummy.Next
 }
